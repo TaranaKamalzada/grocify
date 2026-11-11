@@ -1,0 +1,97 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.logo-icon-wrapper {
+  background-color: #22c55e;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.icon { width: 22px; height: 22px; }
+.icon-sm { width: 16px; height: 16px; }
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f6;
+  border-radius: 9999px;
+  padding: 4px 16px;
+  width: 35%;
+}
+
+.search-select {
+  background: transparent;
+  font-size: 14px;
+  color: #4b5563;
+  border: none;
+  border-right: 1px solid #d1d5db;
+  padding-right: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+}
+
+.search-button {
+  background-color: #4ade80;
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.signin-btn {
+  background-color: #dcfce7;
+  color: #15803d;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 9999px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cart-btn {
+  background-color: #ffedd5;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  color: #f97316;
+  display: flex;
+  cursor: pointer;
+}
